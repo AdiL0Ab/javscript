@@ -21,7 +21,7 @@ console.log("Datatype of num3 is "+typeof(num3));
 console.log("Is both symbol is same "+(ab === ab2));
 
 
-// Object 
+// Non primitive (Refrence) 
 // Array, object, function
 let myArray = ["Abhi", "Ram Binod", "Beauty"]
 console.log("Datype of array is "+typeof(myArray)); // object
