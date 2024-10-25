@@ -40,6 +40,30 @@ let myFunc = function(){
 
 console.log("Datype of myFunc is "+typeof(myFunc));
 
+/*
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Two types of memory 
+ 1.Stack :- Stack is making copy of his elements(Call by value), Primitive
+ 2.Heap :- Heap is passing his refrence (call by reference), Non-primitive
+*/
+
+let stck1 = "abhishek@gmail.com";
+let stck2 = stck1;
+stck2 = "adrika@gmai.com";
+console.log(stck1);
+console.log(stck2); // copy create 
+
+let Abhishek ={
+    age : 24
+}
+
+let adrika = Abhishek
+adrika.age = 25
+console.log(Abhishek.age);
+
+
+
+
 
 
 
